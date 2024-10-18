@@ -1,0 +1,71 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# TeamCity specific files
+.teamcity/
+
+# Test results
+test_output/
+test_reports/
+
+# Logs
+*.log
+*.out
+*.err
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# Environment variables file
+.env
+
+# Package directories
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Python egg files
+*.egg
+.eggs/
+
+# Coverage reports
+htmlcov/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# MyPy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Unit test / coverage reports
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+

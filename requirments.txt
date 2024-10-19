@@ -1,0 +1,2 @@
+coverage==7.6.3
+flake8
